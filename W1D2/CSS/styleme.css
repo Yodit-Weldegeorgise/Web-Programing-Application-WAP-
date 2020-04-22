@@ -1,13 +1,17 @@
  body{
-     background-color: rgb(15, 131, 77);
+     background-color:#595647;
+    color: white;
  }
 h1{
+    color: cornflowerblue;
+}
+h2 {
     color: cornflowerblue;
 }
 .mooddiv{
     display: flex;
     flex-flow: row;
 }
-ol{
-    
+a {
+    color: red;  
 }
