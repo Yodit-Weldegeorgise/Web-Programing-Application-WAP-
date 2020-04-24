@@ -14,12 +14,11 @@
         <input type="text" id="email" class="form-control" placeholder="Enter Email">
      We'll never share your email with anyone else</div>
        
-    </form>
-       <form action="">
+    
+       
            <div class ="form-group"><label for="password"> Password</label>
-        <input type="text" id="password" class="form-control" placeholder="Password" pattern="d+)(?=[a z]*)(?=[A Z]*).{8,}" title =="Must
-        contain at least one number and one uppercase and lowercase letter, and at least 8 or
-        more characters">
+        <input type="text" id="password" class="form-control" placeholder="Password" pattern="(?=\d+)(?=[a z]*)(?=[A Z]*).{8,}" title ="Must
+        contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
         <input type="checkbox" name="check" id="check" >Check me out 
     </div>
     <button class="btn btn-primary" type="submit"> Submit</button>
