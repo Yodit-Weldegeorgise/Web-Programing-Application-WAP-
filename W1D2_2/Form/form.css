@@ -1,0 +1,42 @@
+.flexable{
+    display: inline-table;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex: 1;
+    border: 2px solid yellow;
+    flex-basis: inherit;
+    border-radius: initial;
+    margin-right: 10px;
+    margin-left: 50px;
+    
+}
+.inline1{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;;
+}
+
+.flex-child {
+    flex: 1;
+    margin-right: 20px;
+} 
+/* margine{
+    margin-bottom: 50px;
+} */
+h1{
+   margin-left: 400px;
+}
+.main ul {
+    text-align: left;
+}
+ul {
+    background-color: red;
+    padding: 20px;
+    /* text-align: right; */
+}
+li {
+    border: 1px solid black;
+    display: inline;
+    padding: 10px;
+    background-color: white
+}

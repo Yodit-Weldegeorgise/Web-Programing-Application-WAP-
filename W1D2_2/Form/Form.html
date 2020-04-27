@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=input, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="form.css">
+
+<body>
+    <!-- <div class="inline">
+        <h1>Register</h1>
+        <div>
+            <p>Student only</p>
+            Name<input type="text"><br>
+            Student id<input type="text"><br>
+            Entry date<input type="text"><br>
+            <input type="Submit" value="Sign up">
+        </div> -->
+
+
+    <div>
+        <h1 >REGISTER</h1>
+    </div>
+    <div class="flexable">
+        <fieldset class="inline">
+            <legend class="inline"> Students only </legend>
+            <form method="" action="">
+
+                <label class="margine">Name</label>
+                <input type="text" name="Name" required min="5" placeholder="Name"><br><br>
+
+
+                <label class="margine">Student Id </label>
+                <input type="text" name="id" required min="5" placeholder="Student Id"><br><br>
+
+
+                <label class="margine">Entry date</label>
+                <input type="date" name="entry" required min="5" placeholder="Entry Date"><br><br>
+               
+                <fieldset>
+                    <legend>Gender</legend>
+
+                    <input type="radio" name="Gender" value="Male" checked>
+                    <label>Male</label>
+                    <input type="radio" name="Gender" value="Female" checked>
+                    <label>Female</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Language</legend>
+                    <input type="checkbox" name="Java" id="Java">
+                    <label>Java</label>
+                    <input type="checkbox" name="C#" id="C">
+                    <label>C#</label>
+                    <input type="checkbox" name="Pyton" id="pyton">
+                    <label>Pyton</label><br>
+                    
+                </fieldset><br>
+                <div align="right"><input type="Submit" value="Sign up"></div>
+                <select name="Experiance" id="experiance">
+                    <option value="Select" >------Select Years of experiance------</option>
+                    <optgroup label="Internship">
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+
+                        <option value="1">1</option>
+
+                    </optgroup>
+                    <optgroup label="Work">
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </optgroup>
+                </select>
+                <address>If you have any question please contact 
+                    <a href="http://www.miu.edu">www.miu.edu</a><br>
+                 </address>
+
+            </form>
+        </fieldset>
+    </div>
+    <!-- <div>s
+            <h1>REGISTER</h1>
+        </div> -->
+    <div class="flexable">
+        <fieldset>
+            <legend>Staff only</legend>
+            <form id="" method="POST" action="">
+                <div>
+                    <label class="margine">Name</label>
+                    <input type="text" name="Name" required min="5"><br><br>
+                </div>
+                <div>
+                    <label class="margine">Student Id </label>
+                    <input type="text" name="id" required min="5"><br><br>
+                </div>
+                <div><label class="margine">Entry date</label>
+                    <input type="date" name="entry" required min="5"><br>
+                    <br></div>
+               
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="Gender" checked>
+                    <label>Male</label>
+                    <input type="radio" name="Gender">
+                    <label>Female
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <Legend>Language</Legend>
+                    <input type="Checkbox" name="Java" id="Java" checked>
+                    <label>Java</label>
+                    <input type="checkbox" name="C#" id="c">
+                    <label>C#</label>
+                    <input type="Checkbox" name="Jyton" id="pyton" checked>
+                    <label>Pyton</label>
+                </fieldset><br>
+                <div align="right"><input type="Submit" value="Sign up"></div>
+                <select name="Years of experiance" id="Years">
+                    <option value="Select" >------Select Years of experiance------</option>
+                    <option value="10">10</option>
+                    <option value="5">5</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <address>If you have any question please contact 
+                   <a href="http://www.miu.edu">www.miu.edu</a><br>
+                </address>
+            </form>
+        </fieldset>
+    </div>
+
+    </div>
+
+    <div class="main">
+        <ul>
+            <li>Bananas</li>
+            <li>Apples</li>
+            <li>Grapefruit</li>
+            <li>Oranges</li>
+            <li>Papaya</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
