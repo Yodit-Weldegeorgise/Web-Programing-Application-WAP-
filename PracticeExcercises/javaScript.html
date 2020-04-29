@@ -6,7 +6,40 @@
     <title>Document</title>
 </head>
 <script src="javaScript.js"></script>
+
 <body>
-    
+    <div id="display"> </div>
+    <!-- "alert('Hello');" -->
+    <input type="text" id="name"  ></button> 
+    <button onclick="viewText()">Click Text</button>
+    <button onclick='showAlert()'>Click Me</button>
+   
+
 </body>
+<script>
+   function showAlert() {//
+    //    alert('welcome');
+    console.log("Hello and welcome");
+    }
+</script>
+<script>
+    function viewText() {
+      let retrive=  document.getElementById("name");
+      
+        console.log(retrive.value+="A");//retrive and sset value
+        // alert(retrive.value );
+        console.log(retrive.tagName);//accessing by tag name
+        console.log(retrive.type);//accessing by type element 
+        console.log(retrive.id);//accessing by id element
+      let setName= document.getElementById("display");
+      setName.innerHTML=retrive.value;
+      let setColor=setName.style.color
+      setColor=red;
+       console.log(setName);
+
+    }
+   
+
+</script>
 </html>
+
