@@ -40,3 +40,9 @@ for (var i = string.length - 1; i >= 0; i--) {
 }
 console.log(reverse("Good Afternoon"));
  
+const s="Connie Client";
+ fname=s.substring(0,s.indexOf(" "));
+let len=s.length;
+console.log(len);
+console.log(s);
+// consol.log(fname);

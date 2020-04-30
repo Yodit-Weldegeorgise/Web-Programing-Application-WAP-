@@ -13,7 +13,7 @@
     <input type="text" id="name"  ></button> 
     <button onclick="viewText()">Click Text</button>
     <button onclick='showAlert()'>Click Me</button>
-   
+   <div id="MyDiv1"></div>
 
 </body>
 <script>
@@ -34,9 +34,14 @@
       let setName= document.getElementById("display");
       setName.innerHTML=retrive.value;
       let setColor=setName.style.color
-      setColor=red;
-       console.log(setName);
-
+    //   setColor=red;
+    //    console.log(setName);
+        var currentId=document.getElementById("MyDiv1");
+        var newP=document.createElement("p");
+        // newP.innerHTML="Hello and Welcome";
+        // currentId.appendChild(newP);
+        // console.log(currentId);
+        console.log(newP);
     }
    
 

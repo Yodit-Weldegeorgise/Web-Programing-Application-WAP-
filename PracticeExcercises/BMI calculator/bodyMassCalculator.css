@@ -1,0 +1,21 @@
+.color{
+    color: lightcoral;
+}
+::placeholder{
+    opacity: 0.5;
+}
+.Design{
+margin: 30px;
+padding: 20px;
+border-spacing: 20px;
+
+}
+body{
+   background-color: lightseagreen;
+}
+.align{
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    text-align: left;
+}
